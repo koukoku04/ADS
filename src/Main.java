@@ -1,11 +1,4 @@
 import java.util.Scanner;
-import java.time.Duration;
-import java.time.Instant;
-import java.io.*;
-//import org.apache.commons.lang3.time.StopWatch;
-//long startTime = currentTimeMillis();
-//long endTime   = currentTimeMillis();
-//System.out.println(endTime - startTime);
 
 public class Main {
     public static void main(String[] args) {
@@ -15,24 +8,34 @@ public class Main {
         switch(choose){
             case 1:
                 executeFirstTask(scanner);
+                System.exit(0);
             case 2:
                 executeSecondTask(scanner);
+                System.exit(0);
             case 3:
                 executeThirdTask(scanner);
+                System.exit(0);
             case 4:
                 executeFourthTask(scanner);
+                System.exit(0);
             case 5:
                 executeFifthTask(scanner);
+                System.exit(0);
             case 6:
                 executeSixthTask(scanner);
+                System.exit(0);
             case 7:
                 executeSeventhTask(scanner);
+                System.exit(0);
             case 8:
                 executeEighthTask(scanner);
+                System.exit(0);
             case 9:
                 executeNinthTask(scanner);
+                System.exit(0);
             case 10:
                 executeTenthTask(scanner);
+                System.exit(0);
         }
 
 
